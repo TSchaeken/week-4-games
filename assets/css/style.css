@@ -1,3 +1,32 @@
-#topContainer {
-    visibility:;
+
+
+#top-container {
+    background-color:rgba(34,34,51,0.5);
 }
+
+#object-container {
+    background-color:rgba(34,34,51,0.5);
+}
+
+#first-direction {
+    display:none;
+    background-color:rgba(34,34,51,0.5);
+}
+
+.row-spacer {
+    margin:40px;
+}
+
+
+body {
+    background-color:transparent;
+    color:#AACCFF;
+}
+
+html { 
+    background: url(../images/nature.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
