@@ -1,20 +1,32 @@
 
 
-#top-container {
+.top-container {
     background-color:rgba(34,34,51,0.5);
 }
 
-#object-container {
+.object-container {
     background-color:rgba(34,34,51,0.5);
     padding:20px 0px;
 }
 
-#story-status-2 {
+/* #story-status-2 {
     display:none;
+} */
+hr {
+    background-color:#AACCFF;
 }
 
-.direction img {
+.direction {
     height:150px;
+}
+
+.enemy {
+    height:250px;
+    margin-left: 30px;
+}
+
+.hidden {
+    display:none;
 }
 
 .jumbotron {
@@ -24,7 +36,6 @@
 .row-spacer {
     margin:40px;
 }
-
 
 body {
     background-color:transparent;

@@ -16,15 +16,14 @@
 <body>
 
 
-    <div id="top-container">
-
+    <div class="top-container">
         <div class="jumbotron jumbotron-fluid">
             <div class="container .container-fluid">
                 <h1 class="display-4">Your ship has been destroyed.</h1>
 
                 <p class="lead">You've crawled from the wreck of your boat to find yourself on an unfamiliar shoreline. In the background,
                     an ominous mountain dominates the skyline.</p>
-                <p class="lead">Seeing no better option, you decide to walk towards the hill to see if it's height will let you spot a village.</p>
+                <p class="lead">Seeing no better option, you decide to walk towards the mountain in the hope that you will find aid.</p>
 
             </div>
         </div>
@@ -32,8 +31,8 @@
 
     <div class="row-spacer"></div>
 
-    <div id="object-container">
-        <div class="container" id="story-status">
+    <div class="object-container">
+        <div class="container hidden" id="story-status">
             <div class="row">
                 <div class="col-6">
                     <p>Before you begin, you reach for a familiar tool. Uncertain of what lies ahead, you don't want to be caught
@@ -52,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" id="story-status-2">
+        <div class="container hidden" id="story-status-2">
             <div class="row">
                 <div class="col-12">
                     <p>You find yourself close to the mountains base. Noises and whispers have followed you from the shore,
@@ -62,22 +61,57 @@
                         the base to the right along a river.
                     </p>
                 </div>
-                <div class="col-4 img-responsive direction" id="left">
-                    <img src="assets/images/cave_mouth.jpg">
+                <div class="col-4 img-responsive" id="left">
+                    <img class="direction" src="assets/images/cave_mouth.jpg">
                 </div>
-                <div class="col-4 img-responsive direction" id="straight">
-                    <img src="assets/images/mountain-face.jpg">
+                <div class="col-4 img-responsive" id="straight">
+                    <img class="direction" src="assets/images/mountain-face.jpg">
                 </div>
-                <div class="col-4 img-responsive direction" id="right">
-                    <img src="assets/images/mountain_base.jpg">
+                <div class="col-4 img-responsive" id="right">
+                    <img class="direction" src="assets/images/mountain_base.jpg">
                 </div>
             </div>
         </div>
-        <div class="container" id="story-left-1">
+        <div class="container hidden" id="story-left-1">
             <div class="row">
-                <div class="col-4"></div>
-                <div class="col-4"></div>
-                <div class="col-4"></div>
+                <div class="col-6">
+                    <p>As you enter the cave you sense something dropping behind you. Gripping the handle tightly, you turn
+                        around.</p>
+                    <hr>
+                    <p>Click on the enemy to attack with your weapon!</p>
+                    <p>Your most recent attack is logged below. Keep an eye on your health!</p>
+                    <p>
+                        <span id="enemyHealth"></span>
+                    </p>
+                    <p>
+                        <span id="combatLog"></span>
+                    </p>
+                </div>
+                <div class="col-6 img-responsive" id="spiderEnemy">
+                    <img class="enemy" src="assets/images/spider.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="container hidden" id="story-left-2">
+            <div class="row">
+                <div class="col-12">
+                    <p>Escaping the cave on the other side of the mountain, you see before you two routes. There is a shaded
+                        chasm ahead of you, and a lake nestled in the mountains to your right.</p>
+                    <p>Choose carefully, it seems the land is responding to your presence.</p>
+                </div>
+                <div class="col-6 img-responsive">
+                    <img class="direction" src="assets/images/chasm.jpg">
+                </div>
+                <div class="col-6 img-responsive">
+                    <img class="direction" src="assets/images/lake.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="container hidden" id="story-left-3">
+            <div class="row">
+                <div class="col-4 img-responsive"></div>
+                <div class="col-4 img-responsive"></div>
+                <div class="col-4 img-responsive"></div>
             </div>
         </div>
     </div>
