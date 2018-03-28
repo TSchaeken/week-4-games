@@ -16,57 +16,68 @@
 <body>
 
 
+    <div id="top-container">
 
-    <div class="container" id="top-container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container .container-fluid">
+                <h1 class="display-4">Your ship has been destroyed.</h1>
 
-        <h1 class="display-4">Your ship has been destroyed.</h1>
+                <p class="lead">You've crawled from the wreck of your boat to find yourself on an unfamiliar shoreline. In the background,
+                    an ominous mountain dominates the skyline.</p>
+                <p class="lead">Seeing no better option, you decide to walk towards the hill to see if it's height will let you spot a village.</p>
 
-        <p class="lead">You've crawled from the wreck of your boat to find yourself on an unfamiliar shoreline. In the background, an ominous
-            mountain dominates the skyline.</p>
-        <p class="lead">Seeing no better option, you decide to walk towards the hill to see if it's height will let you spot a village.</p>
-
-    </div>
-
-    <div class="row-spacer"></div>
-
-    <div class="container">
-        <div class="row" id="object-container">
-            <div class="col-6" id="storyStatus">
-                <p>Before you begin, you reach for a familiar tool. Uncertain of what lies ahead, you don't want to be caught
-                    empty-handed.
-                </p>
-                <p>Choose carefully, some dangers can only be overcome with the right tool.</p>
-            </div>
-            <div class="col-2 img-responsive wep-img" id="weaponHammer">
-                <img src="assets/images/big-hammer-svgrepo-com.svg">
-            </div>
-            <div class="col-2 img-responsive wep-img" id="weaponShovel">
-                <img src="assets/images/shovel-svgrepo-com.svg">
-            </div>
-            <div class="col-2 img-responsive wep-img" id="weaponBillhook">
-                <img src="assets/images/billhook-svgrepo-com.svg">
             </div>
         </div>
     </div>
 
-    <div class="container" id="first-direction">
-        <div class="row">
-            <div class="col-6" id="storyStatus">
-                <p>You find yourself close to the mountains base. Noises and whispers have followed you from the shore, urgently
-                    pushing you onward.
-                </p>
-                <p>There are three paths available to you: straight up the mountain, to the left into a cave, or skirting the
-                    base to the right through the forest.
-                </p>
+    <div class="row-spacer"></div>
+
+    <div id="object-container">
+        <div class="container" id="story-status">
+            <div class="row">
+                <div class="col-6">
+                    <p>Before you begin, you reach for a familiar tool. Uncertain of what lies ahead, you don't want to be caught
+                        empty-handed.
+                    </p>
+                    <p>Choose carefully, some dangers can only be overcome with the right tool.</p>
+                </div>
+                <div class="col-2 img-responsive wep-img" id="weaponHammer">
+                    <img src="assets/images/big-hammer-svgrepo-com.svg">
+                </div>
+                <div class="col-2 img-responsive wep-img" id="weaponShovel">
+                    <img src="assets/images/shovel-svgrepo-com.svg">
+                </div>
+                <div class="col-2 img-responsive wep-img" id="weaponBillhook">
+                    <img src="assets/images/billhook-svgrepo-com.svg">
+                </div>
             </div>
-            <div class="col-2">
-                <p>Left</p>
+        </div>
+        <div class="container" id="story-status-2">
+            <div class="row">
+                <div class="col-12">
+                    <p>You find yourself close to the mountains base. Noises and whispers have followed you from the shore,
+                        urgently pushing you onward.
+                    </p>
+                    <p>There are three paths available to you: to the left into a cave, straight up the mountain, or skirting
+                        the base to the right along a river.
+                    </p>
+                </div>
+                <div class="col-4 img-responsive direction" id="left">
+                    <img src="assets/images/cave_mouth.jpg">
+                </div>
+                <div class="col-4 img-responsive direction" id="straight">
+                    <img src="assets/images/mountain-face.jpg">
+                </div>
+                <div class="col-4 img-responsive direction" id="right">
+                    <img src="assets/images/mountain_base.jpg">
+                </div>
             </div>
-            <div class="col-2">
-                <p>straight</p>
-            </div>
-            <div class="col-2">
-                <p>right</p>
+        </div>
+        <div class="container" id="story-left-1">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
             </div>
         </div>
     </div>

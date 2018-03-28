@@ -6,11 +6,19 @@
 
 #object-container {
     background-color:rgba(34,34,51,0.5);
+    padding:20px 0px;
 }
 
-#first-direction {
+#story-status-2 {
     display:none;
-    background-color:rgba(34,34,51,0.5);
+}
+
+.direction img {
+    height:150px;
+}
+
+.jumbotron {
+    background:transparent;
 }
 
 .row-spacer {
